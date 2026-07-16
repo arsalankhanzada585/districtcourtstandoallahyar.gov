@@ -49,10 +49,10 @@ header{
 .brand{display:flex; align-items:center; gap:16px;}
 .seal{
   width:52px; height:52px; border-radius:50%;
-  background:radial-gradient(circle at 35% 30%, var(--gold-light), var(--gold) 60%, #8a691f 100%);
+ background:radial-gradient(circle at 35% 30%, var(--green-600), var(--green-700) 60%, var(--green-900) 100%);
   display:flex; align-items:center; justify-content:center;
   color:var(--white); font-family:'Playfair Display',serif; font-weight:700; font-size:1.2rem;
-  box-shadow:0 0 0 3px var(--paper), 0 0 0 4px var(--gold);
+  box-shadow:0 0 0 3px var(--paper), 0 0 0 4px var(--green-700);
   flex-shrink:0;
 }
 .brand-text .eyebrow{font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--gold); font-weight:600;}
